@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=GKI DUMMY1 KSU by eraselk
+kernel.string=GKI KSU DUMMY1 by eraselk
 do.devicecheck=0
 do.modules=0
 do.systemless=0
