@@ -34,8 +34,8 @@ no_magisk_check=1
 
 kernel_version=$(cat /proc/version | awk -F '-' '{print $1}' | awk '{print $3}')
 case $kernel_version in
-    5.*) gki=true ;;
-    6.*) gki=true ;;
+    5.1*) gki=true ;;
+    6.1*) gki=true ;;
     *) gki=false ;;
 esac
 
